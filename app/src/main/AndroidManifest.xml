@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".fourth_social2_progress"></activity>
+        <activity android:name=".fourth_social_progress" />
+        <activity android:name=".fourth_meditation2_progress" />
+        <activity android:name=".fourth_meditation_progress" />
+        <activity android:name=".fourth_hobbies2_progress" />
+        <activity android:name=".fourth_hobbies_progress" />
+        <activity android:name=".fourth_social2" />
+        <activity android:name=".fourth_social" />
+        <activity android:name=".fourth_meditation2" />
+        <activity android:name=".fourth_meditation" />
+        <activity android:name=".fourth_hobbies2" />
+        <activity android:name=".fourth_hobbies" />
+        <activity android:name=".third_social" />
+        <activity android:name=".second_social" />
+        <activity android:name=".third_meditation" />
+        <activity android:name=".second_meditation" />
+        <activity android:name=".third_hobbies" />
+        <activity android:name=".second_hobbies" />
+        <activity android:name=".fourth2progress" />
+        <activity android:name=".fourthprogress" />
+        <activity android:name=".sixth" />
+        <activity android:name=".fifth" />
+        <activity android:name=".fourth2" />
+        <activity android:name=".fourth" />
+        <activity android:name=".third" />
+        <activity android:name=".second" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
